@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Coffich☕️</title>
+
+    <script src="https://telegram.org/js/telegram-web-app.js"></script>
+
+    <style>
+        body {
+            margin: 0;
+            padding: 20px;
+            font-family: Arial, sans-serif;
+            background: #f7efe5;
+            color: #3e2723;
+            text-align: center;
+        }
+        h1 {
+            margin-top: 10px;
+        }
+        .card {
+            background: white;
+            border-radius: 15px;
+            padding: 15px;
+            margin: 15px auto;
+            max-width: 300px;
+            box-shadow: 0 4px 10px rgba (0,0,0,0.1);
+        }
+        button {
+            background: #6d4c41;
+            color: white;
+            border: none;
+            padding: 12px 20px;
+            border-radius: 25px;
+            font-size: 16px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>☕️ Coffich</h1>
+    <p>Кофе • Уют • Вдохновение</p>
+
+    <div class="card">
+        <h3>Капучино</h3>
+           <p>25тысяч</p>
+           <button onclick="order('Капучино')"></button>
+    </div> 
+
+    <div class="card">
+        <h3>Латте</h3>
+        <p>25тысяч</p>
+    </div>
+
+    <script>
+        const tg = window. Telegram.WebApp;
+        tg.expand();
+
+        function order(item) {
+
+        }
+
+    </script>
+
+
+</body>
+</html>
